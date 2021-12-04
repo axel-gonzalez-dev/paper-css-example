@@ -5,5 +5,11 @@
 /* Container styles */
 
 .container {
-	margin-top: 69px;
+	margin-top: 1rem;
+}
+
+/* Menu styles */
+
+.menu-title{
+	text-align: center;
 }
