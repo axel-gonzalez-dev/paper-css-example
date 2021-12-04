@@ -6,14 +6,37 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./styles/paper.min.css">
+	<link rel="stylesheet" href="./styles/main.css">
 	<title>Initial template</title>
 </head>
 
 <body>
-	<div class="paper container">
+
+	<nav class="border fixed split-nav">
+		<div class="nav-brand">
+			<h3><a href="#">Get PaperCSS</a></h3>
+		</div>
+		<div class="collapsible">
+			<input id="collapsible1" type="checkbox" name="collapsible1">
+			<label for="collapsible1">
+				<div class="bar1"></div>
+				<div class="bar2"></div>
+				<div class="bar3"></div>
+			</label>
+			<div class="collapsible-body">
+				<ul class="inline">
+					<li><a href="#">Documentation</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Github</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<main class="paper container">
 		<h1>Initial template</h1>
 		<p>Use this template to start :)</p>
-	</div>
+	</main>
 </body>
 
 </html>
